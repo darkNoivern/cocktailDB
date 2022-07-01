@@ -1,0 +1,88 @@
+@import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Bree+Serif&family=Fredericka+the+Great&family=Montserrat:wght@300;400;500;600;700;800;900&display=swap');
+
+*{
+    font-family: 'Montserrat', sans-serif;
+}
+
+.flexy{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.navbar-brand{
+    font-size: 2rem;
+    font-family: 'Fredericka the Great', cursive !important;
+    letter-spacing: 0.2rem;
+}
+.navbar{
+  box-shadow: 0 5px 15px rgb(0 0 0 / 10%);
+}
+
+.olive{
+    color: #476a2e !important;
+}
+
+.name{
+    font-size: 2rem;
+    font-weight: 500;
+    line-height: 100%;
+}
+
+.id{
+    font-size: 1.1rem;
+}
+
+.card-body{
+    color: grey;
+    font-weight: 600;
+    letter-spacing: 0.2rem;
+}
+
+.button{
+    font-family: 'Montserrat', sans-serif !important;
+    font-weight: 400!important;
+}
+
+.bg-olive{
+    background-color: #476a2e !important;
+    color: white !important;
+}
+
+.bg-olive:hover{
+    background-color: #d4e6a5 !important;
+    color: black !important;
+}
+
+.play-bold{
+    font-weight: 600;
+    font-family: 'Fredericka the Great', cursive ;
+}
+
+.cocktail-img{
+    max-height: 30rem;
+    height: 100%;
+    max-width: 35rem;
+    width: 100%;
+    border-radius: 2rem;
+}
+
+.coacktail-details-questions{
+    background-color: #d4e6a5 !important;
+    color: #476a2e;
+    border-radius: 0.5rem;
+    font-size: 1.5rem;
+    font-weight: 600;
+    /* color: black !important; */
+}
+
+.coacktail-details-answers{
+    line-height: 1.6;
+    font-size: 1.3rem;
+    font-weight: 600;
+}
+
+.banner-name{
+    font-size: 2rem;
+    font-weight: 600;
+}
